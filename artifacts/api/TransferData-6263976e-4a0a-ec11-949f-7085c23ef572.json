@@ -1,0 +1,58 @@
+{
+	"id": "6263976e-4a0a-ec11-949f-7085c23ef572",
+	"createdAt": "2021-08-31T10:58:55.106Z",
+	"createdBy": "svein.gunnar.larsen@neptune-software.com",
+	"auth": [
+		{
+			"role": "DEF",
+			"apiAuth": "EB9AFD6C-4D0A-EC11-949F-7085C23EF572",
+			"authName": "TargetSystemAuth",
+			"authDesc": "",
+			"id": "27156253-59d1-40ac-cb59-c8b61d943e9a"
+		}
+	],
+	"endpoints": [],
+	"paths": [
+		{
+			"id": "051AB15B-010E-4397-A303-232C5FC4BBA5",
+			"method": "POST",
+			"path": "/(tableName)",
+			"description": "",
+			"parameters": [],
+			"headers": [],
+			"responses": [
+				{
+					"status": "200",
+					"description": "OK",
+					"headers": [],
+					"body": []
+				}
+			]
+		}
+	],
+	"definitions": [],
+	"documentation": [],
+	"name": "TransferData",
+	"endpoint": "https://planet9dev.neptune-software.com:8081/api/entity",
+	"ver": "21.9.6.1119",
+	"version": null,
+	"description": "Pushes table data from source system to target system",
+	"mediaType": null,
+	"securitySchemes": null,
+	"swaggerURI": null,
+	"swaggerSystem": null,
+	"apiType": "",
+	"about": null,
+	"enableProxy": true,
+	"restrictAccess": false,
+	"enableTrace": true,
+	"enableIDE": true,
+	"internalAPI": false,
+	"isPublic": false,
+	"tlsAllowUntrusted": true,
+	"useOwnProcess": false,
+	"package": "55256b21-ae09-ec11-949f-7085c23ef572",
+	"apiGroup": "8a7d53f5-af09-ec11-949f-7085c23ef572",
+	"apiFormat": 1,
+	"roles": []
+}

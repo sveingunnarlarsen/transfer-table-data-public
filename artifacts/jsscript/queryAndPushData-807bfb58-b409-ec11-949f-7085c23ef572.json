@@ -1,0 +1,61 @@
+{
+	"id": "807bfb58-b409-ec11-949f-7085c23ef572",
+	"createdAt": "2021-08-30T17:04:34.326Z",
+	"createdBy": "svein.gunnar.larsen@neptune-software.com",
+	"globalScripts": [],
+	"externalModules": [],
+	"entitySets": [],
+	"apis": [
+		{
+			"id": "051AB15B-010E-4397-A303-232C5FC4BBA5",
+			"parent": "6263976E-4A0A-EC11-949F-7085C23EF572",
+			"name": "/(tableName)",
+			"contextname": "transferTableData",
+			"method": "POST"
+		}
+	],
+	"name": "queryAndPushData",
+	"ver": "21.9.20.959",
+	"description": null,
+	"content": [
+		"==OBJECT STRING==",
+		"const tableName = req.body.name;\r",
+		"const data = await entityManager.find(`entityset_${req.body.name}`, {});\r",
+		"data.forEach(r => {\r",
+		"    delete r.id;\r",
+		"});\r",
+		"\r",
+		"try {\r",
+		"    const response = await apis.transferTableData({tableName, data});\r",
+		"    console.log(response.data);\r",
+		"    result = 'OK';\r",
+		"} catch(error) {\r",
+		"    log.error(\"Error in request: \", error);\r",
+		"    fail(error);\r",
+		"}\r",
+		""
+	],
+	"useAsGlobalScript": false,
+	"isTypescript": true,
+	"transpiledContent": [
+		"==OBJECT STRING==",
+		"var tableName = req.body.name;\r",
+		"var data = await entityManager.find(\"entityset_\" + req.body.name, {});\r",
+		"data.forEach(function (r) {\r",
+		"    delete r.id;\r",
+		"});\r",
+		"try {\r",
+		"    var response = await apis.transferTableData({ tableName: tableName, data: data });\r",
+		"    console.log(response.data);\r",
+		"    result = 'OK';\r",
+		"}\r",
+		"catch (error) {\r",
+		"    log.error(\"Error in request: \", error);\r",
+		"    fail(error);\r",
+		"}\r",
+		""
+	],
+	"lastRunSuccessful": false,
+	"jsscriptGroup": "21943541-b409-ec11-949f-7085c23ef572",
+	"package": "55256b21-ae09-ec11-949f-7085c23ef572"
+}

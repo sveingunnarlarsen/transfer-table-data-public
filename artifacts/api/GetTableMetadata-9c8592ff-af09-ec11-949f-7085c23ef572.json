@@ -1,0 +1,60 @@
+{
+	"id": "9c8592ff-af09-ec11-949f-7085c23ef572",
+	"createdAt": "2021-08-30T16:33:26.350Z",
+	"createdBy": "svein.gunnar.larsen@neptune-software.com",
+	"auth": [
+		{
+			"role": "DEF",
+			"apiAuth": "BB0B00AD-B909-EC11-949F-7085C23EF572",
+			"authName": "SourceSystemAuth",
+			"authDesc": "",
+			"id": "ff3ff451-37a4-4192-cd75-81bfbaf6b979"
+		}
+	],
+	"endpoints": [],
+	"paths": [
+		{
+			"id": "B99591E5-B704-431D-B51F-191C1EB72027",
+			"method": "POST",
+			"path": "/Dictionary/List",
+			"description": "",
+			"parameters": [],
+			"headers": [],
+			"responses": [
+				{
+					"status": "200",
+					"description": "OK",
+					"headers": [],
+					"body": []
+				}
+			],
+			"enableTrace": true,
+			"content": []
+		}
+	],
+	"definitions": [],
+	"documentation": [],
+	"name": "GetTableMetadata",
+	"endpoint": "https://p9:8081/api/functions",
+	"ver": "21.9.6.1114",
+	"version": null,
+	"description": "Transfers table data from one planet 9 system to another",
+	"mediaType": null,
+	"securitySchemes": null,
+	"swaggerURI": null,
+	"swaggerSystem": null,
+	"apiType": "",
+	"about": null,
+	"enableProxy": true,
+	"restrictAccess": false,
+	"enableTrace": true,
+	"enableIDE": true,
+	"internalAPI": false,
+	"isPublic": false,
+	"tlsAllowUntrusted": true,
+	"useOwnProcess": false,
+	"package": "55256b21-ae09-ec11-949f-7085c23ef572",
+	"apiGroup": "8a7d53f5-af09-ec11-949f-7085c23ef572",
+	"apiFormat": 0,
+	"roles": []
+}

@@ -1,0 +1,28 @@
+{
+	"id": "2e29d86d-f219-ec11-94a5-7085c23ef572",
+	"createdAt": "2021-09-20T09:09:17.160Z",
+	"createdBy": "svein.gunnar.larsen@neptune-software.com",
+	"fields": [
+		{
+			"id": "66f63d1f-a4c0-4d24-ef90-12e7371a2d00",
+			"fieldName": "one",
+			"fieldType": "mediumtext",
+			"isNullable": true
+		},
+		{
+			"id": "e66dd608-377f-474c-ca2a-da427b665ac9",
+			"fieldName": "two",
+			"fieldType": "mediumtext",
+			"isNullable": true
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "transfertabledatatest",
+	"description": null,
+	"ver": "21.9.20.119",
+	"enableAudit": false,
+	"package": "55256b21-ae09-ec11-949f-7085c23ef572",
+	"rolesRead": [],
+	"rolesWrite": []
+}
