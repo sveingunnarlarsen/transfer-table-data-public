@@ -6,13 +6,37 @@
 		"targetServers": [],
 		"branch": "",
 		"remote": "https://github.com/sveingunnarlarsen/transfer-table-data-public.git",
-		"testServers": [],
+		"testServers": [
+			{
+				"url": "https://p9:8081",
+				"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjFCQThBNzgyLTJGQjktNEVFMy1CMkI2LUQ0MTc3QTc2ODNCMiIsInV1aWQiOiI3MjhmZjk4NS1kMGIyLTRhNDctYmU3ZC05ZGFhNWZhYTVhM2QiLCJpYXQiOjE2MjM3ODQ4NzIsImV4cCI6MTcxMDE4NDg3Mn0.5lHSfypzx1CYbR3i8lzudEtnJs188jGc5umCxXZPQ-g"
+			}
+		],
 		"readme": "Package for transfering table data between two systems.",
-		"path": "/Dev/planet9/transfer-table-data"
+		"path": "/Dev/planet9/transfer-table-data",
+		"testAPI": [
+			{
+				"id": "0c05c428-3b45-4644-feac-15ceef17445e",
+				"apiid": "9C8592FF-AF09-EC11-949F-7085C23EF572",
+				"operid": "B99591E5-B704-431D-B51F-191C1EB72027",
+				"enabled": true,
+				"_data": {
+					"parameters": {},
+					"headers": {},
+					"body": ""
+				},
+				"testName": "Test",
+				"statusCode": "",
+				"jestMaxRuntime": 10000,
+				"jestMatchName": "req.data",
+				"jestMatchOperation": "toBeTruthy",
+				"jestMatchValue": ""
+			}
+		]
 	},
 	"name": "TransferTableData",
 	"description": "A collection of sample artifacts in Planet 9",
-	"ver": "21.9.20.1327",
+	"ver": "21.9.20.1441",
 	"enableCICD": true,
 	"apps": [
 		{
