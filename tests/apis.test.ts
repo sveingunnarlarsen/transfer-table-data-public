@@ -51,7 +51,7 @@ for (let server of servers) {
                     ? `?${parameterKeys.map(key => `${key}=${operationToTest.parameters[key]}`).join('&')}`
                     : undefined
                 const endpoint = `${server.url}${operationToTest.endpoint}${operationToTest.path}${parameters ? parameters : ''}`;
-                const url = !operationToTest.type ? `https://p9:8081/proxy/${encodeURIComponent(endpoint)}/${operationToTest.apiId}` : endpoint;
+                const url = !operationToTest.type ? `/proxy/${encodeURIComponent(endpoint)}/${operationToTest.apiId}` : endpoint;
 
                 const opts: AxiosRequestConfig = {
                     method: operationToTest.method as Method,

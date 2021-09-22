@@ -1,7 +1,7 @@
 {
 	"id": "80b3807b-ae09-ec11-949f-7085c23ef572",
 	"createdAt": "2021-08-30T16:26:06.566Z",
-	"updatedAt": "2021-09-20T11:18:25.693Z",
+	"updatedAt": "2021-09-21T12:18:18.883Z",
 	"createdBy": "svein.gunnar.larsen@neptune-software.com",
 	"changedBy": "svein.gunnar.larsen@neptune-software.com",
 	"objects": [
@@ -238,6 +238,7 @@
 						"}\r",
 						"\r",
 						"console.log(\"test\");\r",
+						"console.log(\"test2\");\r",
 						"\r",
 						"window['appData'] = modelAppData;"
 					],
@@ -293,7 +294,7 @@
 			"data": []
 		}
 	],
-	"ver": "21.9.20.1318",
+	"ver": "21.9.21.1414",
 	"application": "transfertabledata",
 	"title": "",
 	"description": "Transfers table data from one planet 9 system to another",
@@ -326,141 +327,17 @@
 	"apis": [
 		{
 			"id": "9C8592FF-AF09-EC11-949F-7085C23EF572",
-			"createdAt": "2021-08-30T16:33:26.350Z",
-			"createdBy": "svein.gunnar.larsen@neptune-software.com",
-			"changedBy": "system",
-			"auth": [
-				{
-					"role": "DEF",
-					"apiAuth": "BB0B00AD-B909-EC11-949F-7085C23EF572",
-					"authName": "SourceSystemAuth",
-					"authDesc": "",
-					"id": "ff3ff451-37a4-4192-cd75-81bfbaf6b979"
-				}
-			],
-			"endpoints": [],
-			"paths": [
-				{
-					"id": "B99591E5-B704-431D-B51F-191C1EB72027",
-					"method": "POST",
-					"path": "/Dictionary/List",
-					"description": "",
-					"parameters": [],
-					"headers": [],
-					"responses": [
-						{
-							"status": "200",
-							"description": "OK",
-							"headers": [],
-							"body": []
-						}
-					],
-					"enableTrace": true,
-					"content": []
-				}
-			],
-			"definitions": [],
-			"documentation": [],
 			"name": "GetTableMetadata",
-			"endpoint": "https://p9:8081/api/functions",
 			"ver": "21.9.6.1114",
-			"version": null,
-			"description": "Transfers table data from one planet 9 system to another",
-			"mediaType": null,
-			"securitySchemes": null,
-			"swaggerURI": null,
-			"swaggerSystem": null,
-			"apiType": "",
-			"about": null,
-			"enableProxy": true,
-			"restrictAccess": false,
-			"enableTrace": true,
-			"enableIDE": true,
-			"internalAPI": false,
-			"isPublic": false,
-			"tlsAllowUntrusted": true,
-			"useOwnProcess": false,
-			"package": "55256B21-AE09-EC11-949F-7085C23EF572",
-			"apiGroup": "8A7D53F5-AF09-EC11-949F-7085C23EF572",
-			"apiFormat": 0
+			"updatedAt": "2021-09-21T12:18:18.853Z",
+			"changedBy": "system"
 		},
 		{
 			"id": "F20331D1-420A-EC11-949F-7085C23EF572",
-			"createdAt": "2021-08-31T10:04:24.560Z",
-			"createdBy": "svein.gunnar.larsen@neptune-software.com",
-			"changedBy": "system",
-			"auth": [],
-			"endpoints": [],
-			"paths": [
-				{
-					"id": "AD6DD1B2-20D1-40D5-9E3B-D2C4FD260979",
-					"method": "POST",
-					"path": "/queryAndPushData",
-					"description": "",
-					"parameters": [],
-					"headers": [],
-					"responses": [
-						{
-							"status": "200",
-							"description": "OK",
-							"headers": [],
-							"body": []
-						}
-					],
-					"serverScript": "807BFB58-B409-EC11-949F-7085C23EF572"
-				}
-			],
-			"definitions": [
-				{
-					"id": "c748e91f-d8d0-4366-9bd9-1ecd630ba7c6",
-					"name": "TableID",
-					"description": "",
-					"isInclude": false,
-					"properties": [
-						{
-							"id": "a042a895-739a-47ce-c7f0-9653974e6c53",
-							"name": "id",
-							"objectType": "string",
-							"description": "ID of the table to be transferred",
-							"required": false,
-							"value": "",
-							"minLength": "",
-							"maxLength": "",
-							"default": "",
-							"example": "",
-							"isParent": false,
-							"enableValueHelp": false,
-							"enabled": true,
-							"hideNameField": false,
-							"children": []
-						}
-					],
-					"type": "object"
-				}
-			],
-			"documentation": [],
 			"name": "QueryTableDataAndPush",
-			"endpoint": "/api/serverscript/querytabledataandpush",
 			"ver": "21.9.6.1118",
-			"version": null,
-			"description": null,
-			"mediaType": null,
-			"securitySchemes": null,
-			"swaggerURI": null,
-			"swaggerSystem": null,
-			"apiType": "script",
-			"about": null,
-			"enableProxy": false,
-			"restrictAccess": false,
-			"enableTrace": true,
-			"enableIDE": true,
-			"internalAPI": false,
-			"isPublic": false,
-			"tlsAllowUntrusted": false,
-			"useOwnProcess": false,
-			"package": "55256B21-AE09-EC11-949F-7085C23EF572",
-			"apiGroup": "8A7D53F5-AF09-EC11-949F-7085C23EF572",
-			"apiFormat": 1
+			"updatedAt": "2021-09-21T09:39:22.520Z",
+			"changedBy": "system"
 		}
 	]
 }
