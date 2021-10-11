@@ -304,6 +304,8 @@
 	"enableObfuscate": false,
 	"onlyRunLaunchpad": false,
 	"disabled": false,
+	"loadLaunchpadCode": null,
+	"loadApplicationCode": null,
 	"appType": "",
 	"ui5_m": true,
 	"ui5_f": false,
@@ -329,14 +331,14 @@
 			"id": "9C8592FF-AF09-EC11-949F-7085C23EF572",
 			"name": "GetTableMetadata",
 			"ver": "21.9.6.1114",
-			"updatedAt": "2021-09-21T12:18:18.853Z",
+			"updatedAt": "2021-10-08T07:28:39.973Z",
 			"changedBy": "system"
 		},
 		{
 			"id": "F20331D1-420A-EC11-949F-7085C23EF572",
 			"name": "QueryTableDataAndPush",
 			"ver": "21.9.6.1118",
-			"updatedAt": "2021-09-21T09:39:22.520Z",
+			"updatedAt": "2021-10-08T07:28:39.986Z",
 			"changedBy": "system"
 		}
 	]
