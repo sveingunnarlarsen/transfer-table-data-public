@@ -65,15 +65,7 @@
 	"description": "A collection of sample artifacts in Planet 9",
 	"ver": "21.10.11.1644",
 	"enableCICD": true,
-	"apps": [
-		{
-			"id": "80B3807B-AE09-EC11-949F-7085C23EF572",
-			"ver": "21.9.21.1414",
-			"application": "transfertabledata",
-			"title": "",
-			"description": "Transfers table data from one planet 9 system to another"
-		}
-	],
+	"apps": [],
 	"api": [
 		{
 			"id": "9C8592FF-AF09-EC11-949F-7085C23EF572",
