@@ -63,7 +63,7 @@
 	},
 	"name": "TransferTableData",
 	"description": "A collection of sample artifacts in Planet 9",
-	"ver": "21.9.20.1441",
+	"ver": "21.10.13.1353",
 	"enableCICD": true,
 	"apps": [
 		{
