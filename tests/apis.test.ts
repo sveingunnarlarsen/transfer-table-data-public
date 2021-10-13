@@ -50,7 +50,7 @@ for (let server of servers) {
                 const parameters = parameterKeys.length > 0
                     ? `?${parameterKeys.map(key => `${key}=${operationToTest.parameters[key]}`).join('&')}`
                     : undefined
-                const endpoint = `${operationToTest.type ? server.url : ''}{operationToTest.endpoint}${operationToTest.path}${parameters ? parameters : ''}`;
+                const endpoint = `${operationToTest.type ? server.url : ''}${operationToTest.endpoint}${operationToTest.path}${parameters ? parameters : ''}`;
                 const url = !operationToTest.type ? `${server.url}/proxy/${encodeURIComponent(endpoint)}/${operationToTest.apiId}` : endpoint;
 
                 const opts: AxiosRequestConfig = {
