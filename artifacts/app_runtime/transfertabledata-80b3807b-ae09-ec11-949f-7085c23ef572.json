@@ -1,7 +1,7 @@
 {
 	"id": "80b3807b-ae09-ec11-949f-7085c23ef572",
 	"createdAt": "2021-08-30T16:26:06.566Z",
-	"updatedAt": "2021-11-15T16:21:18.886Z",
+	"updatedAt": "2021-11-15T16:23:28.390Z",
 	"createdBy": "svein.gunnar.larsen@neptune-software.com",
 	"changedBy": "svein.gunnar.larsen@neptune-software.com",
 	"objects": [
@@ -337,8 +337,8 @@
 		{
 			"id": "9c8592ff-af09-ec11-949f-7085c23ef572",
 			"name": "GetTableMetadata",
-			"ver": "21.11.15.1621",
-			"updatedAt": "2021-11-15T16:21:18.866Z",
+			"ver": "21.11.15.1623",
+			"updatedAt": "2021-11-15T16:23:28.371Z",
 			"changedBy": "svein.gunnar.larsen@neptune-software.com"
 		}
 	]

@@ -6,7 +6,7 @@
 		{
 			"id": "c3a55166-a452-42f2-ca4c-fee462b861ea",
 			"name": "Authorization",
-			"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjFCQThBNzgyLTJGQjktNEVFMy1CMkI2LUQ0MTc3QTc2ODNCMiIsInV1aWQiOiI3MjhmZjk4NS1kMGIyLTRhNDctYmU3ZC05ZGFhNWZhYTVhM2QiLCJpYXQiOjE2MjM3ODQ4NzIsImV4cCI6MTcxMDE4NDg3Mn0.5lHSfypzx1CYbR3i8lzudEtnJs188jGc5umCxXZPQ-g"
+			"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImZjY2E3YTlmLTUyNDAtNDVlYi1hM2Q1LWMzZjFjM2M5NThkOCIsInV1aWQiOiI0NzdjOTcxZi01ZGVhLTQ2ZjAtOTNmMS05N2ZjZGEyY2MwMGEiLCJpYXQiOjE2MzA0MDg4MDMsImV4cCI6MTcxNjgwODgwM30.piMmlq_AFsvz1QJO45nzA4Au9wY7VvDrNBwkGxMyT8k"
 		}
 	],
 	"details": {
@@ -24,6 +24,6 @@
 	"type": null,
 	"useCloudConnector": false,
 	"cloudConnectorType": null,
-	"ver": null,
+	"ver": "21.11.15.1623",
 	"package": "55256b21-ae09-ec11-949f-7085c23ef572"
 }
