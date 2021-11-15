@@ -6,7 +6,12 @@
 		"targetServers": [],
 		"branch": "master",
 		"remote": "https://github.com/sveingunnarlarsen/transfer-table-data-public.git",
-		"testServers": [],
+		"testServers": [
+			{
+				"url": "https://planet9dev.neptune-software.com:8081",
+				"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImZjY2E3YTlmLTUyNDAtNDVlYi1hM2Q1LWMzZjFjM2M5NThkOCIsInV1aWQiOiI0NzdjOTcxZi01ZGVhLTQ2ZjAtOTNmMS05N2ZjZGEyY2MwMGEiLCJpYXQiOjE2MzA0MDg4MDMsImV4cCI6MTcxNjgwODgwM30.piMmlq_AFsvz1QJO45nzA4Au9wY7VvDrNBwkGxMyT8k"
+			}
+		],
 		"readme": "Package for transfering table data between two systems.",
 		"path": "/home/ec2-user/packages/transfer-table-data",
 		"testAPI": [
@@ -58,7 +63,7 @@
 	},
 	"name": "TransferTableData",
 	"description": "A collection of sample artifacts in Planet 9",
-	"ver": "21.11.15.1616",
+	"ver": "21.11.15.1617",
 	"enableCICD": true,
 	"apps": [
 		{
