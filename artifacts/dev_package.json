@@ -6,19 +6,14 @@
 		"targetServers": [],
 		"branch": "master",
 		"remote": "https://github.com/sveingunnarlarsen/transfer-table-data-public.git",
-		"testServers": [
-			{
-				"url": "https://planet9dev.neptune-software.com:8081/",
-				"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImZjY2E3YTlmLTUyNDAtNDVlYi1hM2Q1LWMzZjFjM2M5NThkOCIsInV1aWQiOiI0NzdjOTcxZi01ZGVhLTQ2ZjAtOTNmMS05N2ZjZGEyY2MwMGEiLCJpYXQiOjE2MzA0MDg4MDMsImV4cCI6MTcxNjgwODgwM30.piMmlq_AFsvz1QJO45nzA4Au9wY7VvDrNBwkGxMyT8k"
-			}
-		],
+		"testServers": [],
 		"readme": "Package for transfering table data between two systems.",
 		"path": "/home/ec2-user/packages/transfer-table-data",
 		"testAPI": [
 			{
-				"id": "b152b032-21a0-44b2-e943-90aab568660f",
+				"id": "1ca0ee3d-b03e-4924-f4fb-022c97228a51",
 				"apiid": "9c8592ff-af09-ec11-949f-7085c23ef572",
-				"operid": "B99591E5-B704-431D-B51F-191C1EB72027",
+				"operid": "b99591e5-b704-431d-b51f-191c1eb72027",
 				"enabled": true,
 				"_data": {
 					"parameters": {},
@@ -63,7 +58,7 @@
 	},
 	"name": "TransferTableData",
 	"description": "A collection of sample artifacts in Planet 9",
-	"ver": "21.11.15.1611",
+	"ver": "21.11.15.1616",
 	"enableCICD": true,
 	"apps": [
 		{
@@ -78,7 +73,7 @@
 		{
 			"id": "9c8592ff-af09-ec11-949f-7085c23ef572",
 			"name": "GetTableMetadata",
-			"ver": "21.9.6.1114",
+			"ver": "21.11.15.1613",
 			"description": "Transfers table data from one planet 9 system to another",
 			"apiGroup": "8a7d53f5-af09-ec11-949f-7085c23ef572"
 		},

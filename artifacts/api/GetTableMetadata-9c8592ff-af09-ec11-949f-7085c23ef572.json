@@ -14,7 +14,7 @@
 	"endpoints": [],
 	"paths": [
 		{
-			"id": "B99591E5-B704-431D-B51F-191C1EB72027",
+			"id": "b99591e5-b704-431d-b51f-191c1eb72027",
 			"method": "POST",
 			"path": "/Dictionary/List",
 			"description": "",
@@ -35,8 +35,8 @@
 	"definitions": [],
 	"documentation": [],
 	"name": "GetTableMetadata",
-	"endpoint": "https://p9:8081/api/functions",
-	"ver": "21.9.6.1114",
+	"endpoint": "https://planet9dev.neptune-software.com:8081/api/functions",
+	"ver": "21.11.15.1613",
 	"version": null,
 	"description": "Transfers table data from one planet 9 system to another",
 	"mediaType": null,
