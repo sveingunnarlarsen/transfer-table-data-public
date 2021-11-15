@@ -25,7 +25,7 @@
 					"headers": {},
 					"body": ""
 				},
-				"testName": "Returns data",
+				"testName": "ReturnsData",
 				"statusCode": "",
 				"jestMaxRuntime": 2000,
 				"jestMatchName": "req.data",
@@ -63,7 +63,7 @@
 	},
 	"name": "TransferTableData",
 	"description": "A collection of sample artifacts in Planet 9",
-	"ver": "21.11.15.1610",
+	"ver": "21.11.15.1611",
 	"enableCICD": true,
 	"apps": [
 		{
