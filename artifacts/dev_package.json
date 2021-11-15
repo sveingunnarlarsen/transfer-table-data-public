@@ -1,23 +1,23 @@
 {
-	"id": "55256B21-AE09-EC11-949F-7085C23EF572",
+	"id": "55256b21-ae09-ec11-949f-7085c23ef572",
 	"createdAt": "2021-08-30T16:20:04.140Z",
 	"createdBy": "svein.gunnar.larsen@neptune-software.com",
 	"git": {
 		"targetServers": [],
-		"branch": "",
+		"branch": "master",
 		"remote": "https://github.com/sveingunnarlarsen/transfer-table-data-public.git",
 		"testServers": [
 			{
-				"url": "https://p9:8081",
-				"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjFCQThBNzgyLTJGQjktNEVFMy1CMkI2LUQ0MTc3QTc2ODNCMiIsInV1aWQiOiI3MjhmZjk4NS1kMGIyLTRhNDctYmU3ZC05ZGFhNWZhYTVhM2QiLCJpYXQiOjE2MjM3ODQ4NzIsImV4cCI6MTcxMDE4NDg3Mn0.5lHSfypzx1CYbR3i8lzudEtnJs188jGc5umCxXZPQ-g"
+				"url": "https://planet9dev.neptune-software.com:8081",
+				"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImZjY2E3YTlmLTUyNDAtNDVlYi1hM2Q1LWMzZjFjM2M5NThkOCIsInV1aWQiOiI0NzdjOTcxZi01ZGVhLTQ2ZjAtOTNmMS05N2ZjZGEyY2MwMGEiLCJpYXQiOjE2MzA0MDg4MDMsImV4cCI6MTcxNjgwODgwM30.piMmlq_AFsvz1QJO45nzA4Au9wY7VvDrNBwkGxMyT8k"
 			}
 		],
 		"readme": "Package for transfering table data between two systems.",
-		"path": "/Dev/planet9/transfer-table-data",
+		"path": "/home/ec2-user/packages/transfer-table-data",
 		"testAPI": [
 			{
-				"id": "0c05c428-3b45-4644-feac-15ceef17445e",
-				"apiid": "9C8592FF-AF09-EC11-949F-7085C23EF572",
+				"id": "b152b032-21a0-44b2-e943-90aab568660f",
+				"apiid": "9c8592ff-af09-ec11-949f-7085c23ef572",
 				"operid": "B99591E5-B704-431D-B51F-191C1EB72027",
 				"enabled": true,
 				"_data": {
@@ -25,9 +25,9 @@
 					"headers": {},
 					"body": ""
 				},
-				"testName": "Test",
+				"testName": "Returns data",
 				"statusCode": "",
-				"jestMaxRuntime": 10000,
+				"jestMaxRuntime": 2000,
 				"jestMatchName": "req.data",
 				"jestMatchOperation": "toBeTruthy",
 				"jestMatchValue": ""
@@ -63,11 +63,11 @@
 	},
 	"name": "TransferTableData",
 	"description": "A collection of sample artifacts in Planet 9",
-	"ver": "21.10.13.1353",
+	"ver": "21.11.15.165",
 	"enableCICD": true,
 	"apps": [
 		{
-			"id": "80B3807B-AE09-EC11-949F-7085C23EF572",
+			"id": "80b3807b-ae09-ec11-949f-7085c23ef572",
 			"ver": "21.9.21.1414",
 			"application": "transfertabledata",
 			"title": "",
@@ -76,32 +76,32 @@
 	],
 	"api": [
 		{
-			"id": "9C8592FF-AF09-EC11-949F-7085C23EF572",
+			"id": "9c8592ff-af09-ec11-949f-7085c23ef572",
 			"name": "GetTableMetadata",
 			"ver": "21.9.6.1114",
 			"description": "Transfers table data from one planet 9 system to another",
-			"apiGroup": "8A7D53F5-AF09-EC11-949F-7085C23EF572"
+			"apiGroup": "8a7d53f5-af09-ec11-949f-7085c23ef572"
 		},
 		{
-			"id": "F20331D1-420A-EC11-949F-7085C23EF572",
+			"id": "f20331d1-420a-ec11-949f-7085c23ef572",
 			"name": "QueryTableDataAndPush",
 			"ver": "21.9.6.1118",
 			"description": null,
-			"apiGroup": "8A7D53F5-AF09-EC11-949F-7085C23EF572"
+			"apiGroup": "8a7d53f5-af09-ec11-949f-7085c23ef572"
 		},
 		{
-			"id": "6263976E-4A0A-EC11-949F-7085C23EF572",
+			"id": "6263976e-4a0a-ec11-949f-7085c23ef572",
 			"name": "TransferData",
 			"ver": "21.9.6.1119",
 			"description": "Pushes table data from source system to target system",
-			"apiGroup": "8A7D53F5-AF09-EC11-949F-7085C23EF572"
+			"apiGroup": "8a7d53f5-af09-ec11-949f-7085c23ef572"
 		}
 	],
 	"odataMock": [],
 	"odataSource": [],
 	"dictionary": [
 		{
-			"id": "2E29D86D-F219-EC11-94A5-7085C23EF572",
+			"id": "2e29d86d-f219-ec11-94a5-7085c23ef572",
 			"name": "transfertabledatatest",
 			"description": null,
 			"ver": "21.9.20.119"
@@ -109,16 +109,16 @@
 	],
 	"jsclass": [
 		{
-			"id": "807BFB58-B409-EC11-949F-7085C23EF572",
+			"id": "807bfb58-b409-ec11-949f-7085c23ef572",
 			"name": "queryAndPushData",
 			"ver": "21.9.20.959",
 			"description": null,
-			"jsscriptGroup": "21943541-B409-EC11-949F-7085C23EF572"
+			"jsscriptGroup": "21943541-b409-ec11-949f-7085c23ef572"
 		}
 	],
 	"jsscript_group": [
 		{
-			"id": "21943541-B409-EC11-949F-7085C23EF572",
+			"id": "21943541-b409-ec11-949f-7085c23ef572",
 			"name": "TransferTableData",
 			"description": "Transfers table data from one planet 9 system to another",
 			"ver": "21.8.30.193"
@@ -130,19 +130,19 @@
 	"reports": [],
 	"api_authentication": [
 		{
-			"id": "BB0B00AD-B909-EC11-949F-7085C23EF572",
+			"id": "bb0b00ad-b909-ec11-949f-7085c23ef572",
 			"name": "SourceSystemAuth",
 			"description": null
 		},
 		{
-			"id": "EB9AFD6C-4D0A-EC11-949F-7085C23EF572",
+			"id": "eb9afd6c-4d0a-ec11-949f-7085c23ef572",
 			"name": "TargetSystemAuth",
 			"description": null
 		}
 	],
 	"api_group": [
 		{
-			"id": "8A7D53F5-AF09-EC11-949F-7085C23EF572",
+			"id": "8a7d53f5-af09-ec11-949f-7085c23ef572",
 			"name": "TransferTableData",
 			"description": "Transfers table data from one Planet 9 system to another"
 		}

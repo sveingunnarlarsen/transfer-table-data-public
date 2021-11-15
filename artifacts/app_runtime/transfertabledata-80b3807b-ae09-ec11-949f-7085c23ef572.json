@@ -196,8 +196,8 @@
 					"fieldParent": 99999,
 					"fieldType": "neptune.restapi",
 					"script": "",
-					"restSource": "F20331D1-420A-EC11-949F-7085C23EF572",
-					"restOperation": "AD6DD1B2-20D1-40D5-9E3B-D2C4FD260979",
+					"restSource": "f20331d1-420a-ec11-949f-7085c23ef572",
+					"restOperation": "ad6dd1b2-20d1-40d5-9e3b-d2c4fd260979",
 					"request": [],
 					"response": [],
 					"attributes": [],
@@ -209,8 +209,8 @@
 					"fieldParent": 99999,
 					"fieldType": "neptune.restapi",
 					"script": "",
-					"restSource": "9C8592FF-AF09-EC11-949F-7085C23EF572",
-					"restOperation": "B99591E5-B704-431D-B51F-191C1EB72027",
+					"restSource": "9c8592ff-af09-ec11-949f-7085c23ef572",
+					"restOperation": "b99591e5-b704-431d-b51f-191c1eb72027",
 					"request": [],
 					"response": [],
 					"attributes": [],
@@ -328,17 +328,17 @@
 	"ui5_bootstrap": true,
 	"apis": [
 		{
-			"id": "9C8592FF-AF09-EC11-949F-7085C23EF572",
-			"name": "GetTableMetadata",
-			"ver": "21.9.6.1114",
-			"updatedAt": "2021-10-13T11:47:00.156Z",
+			"id": "f20331d1-420a-ec11-949f-7085c23ef572",
+			"name": "QueryTableDataAndPush",
+			"ver": "21.9.6.1118",
+			"updatedAt": "2021-11-15T16:00:13.933Z",
 			"changedBy": "system"
 		},
 		{
-			"id": "F20331D1-420A-EC11-949F-7085C23EF572",
-			"name": "QueryTableDataAndPush",
-			"ver": "21.9.6.1118",
-			"updatedAt": "2021-10-13T11:47:00.166Z",
+			"id": "9c8592ff-af09-ec11-949f-7085c23ef572",
+			"name": "GetTableMetadata",
+			"ver": "21.9.6.1114",
+			"updatedAt": "2021-11-15T16:00:13.918Z",
 			"changedBy": "system"
 		}
 	]
