@@ -321,16 +321,12 @@
 		{
 			"id": "9C8592FF-AF09-EC11-949F-7085C23EF572",
 			"name": "GetTableMetadata",
-			"ver": "21.11.18.1727",
-			"updatedAt": "2021-11-18T16:27:55.743Z",
-			"changedBy": "svein.gunnar.larsen@neptune-software.com"
+			"ver": "21.11.18.1727"
 		},
 		{
 			"id": "F20331D1-420A-EC11-949F-7085C23EF572",
 			"name": "QueryTableDataAndPush",
-			"ver": "21.9.6.1118",
-			"updatedAt": "2021-10-08T07:28:39.986Z",
-			"changedBy": "system"
+			"ver": "21.9.6.1118"
 		}
 	],
 	"package": "55256B21-AE09-EC11-949F-7085C23EF572"
