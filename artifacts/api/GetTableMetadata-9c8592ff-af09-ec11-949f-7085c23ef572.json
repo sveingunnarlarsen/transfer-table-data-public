@@ -4,14 +4,32 @@
 	"createdBy": "svein.gunnar.larsen@neptune-software.com",
 	"auth": [
 		{
-			"role": "DEF",
-			"apiAuth": "BB0B00AD-B909-EC11-949F-7085C23EF572",
-			"authName": "SourceSystemAuth",
+			"role": "DEV",
+			"apiAuth": "7B0E6CAD-A448-EC11-94AE-7085C23EF572",
+			"authName": "p9-8081",
 			"authDesc": "",
-			"id": "ff3ff451-37a4-4192-cd75-81bfbaf6b979"
+			"id": "9009e334-dd99-465b-afa9-1e97cdafb122"
+		},
+		{
+			"role": "QUA",
+			"apiAuth": "EF6B92D2-A748-EC11-94AE-7085C23EF572",
+			"authName": "p9-8083",
+			"authDesc": "",
+			"id": "5463cf01-87cb-44ad-cdc6-d658b25e466a"
 		}
 	],
-	"endpoints": [],
+	"endpoints": [
+		{
+			"role": "DEV",
+			"endpoint": "https://p9:8081/api/functions",
+			"id": "9b1bee93-f36a-4908-863f-af85bf6a289f"
+		},
+		{
+			"role": "QUA",
+			"endpoint": "https://p9:8083/api/functions",
+			"id": "8b14f568-8e71-4efc-86f6-dec907e5ea0c"
+		}
+	],
 	"paths": [
 		{
 			"id": "4DF6503B-78BA-4B15-F02B-395F4480FDD8",
@@ -27,6 +45,15 @@
 					"headers": [],
 					"body": []
 				}
+			],
+			"auth": [
+				{
+					"role": "DEV",
+					"apiAuth": "7B0E6CAD-A448-EC11-94AE-7085C23EF572",
+					"authName": "p9-8081",
+					"authDesc": "",
+					"id": "2f7f5449-6b8d-4641-8992-636d288148a0"
+				}
 			]
 		}
 	],
@@ -34,7 +61,7 @@
 	"documentation": [],
 	"name": "GetTableMetadata",
 	"endpoint": "https://p9:8083/api/functions",
-	"ver": "21.11.18.1727",
+	"ver": "21.11.18.2044",
 	"version": null,
 	"description": "Transfers table data from one planet 9 system to another",
 	"mediaType": null,

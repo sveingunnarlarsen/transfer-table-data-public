@@ -22,7 +22,9 @@
 				"enabled": true,
 				"_data": {
 					"parameters": {},
-					"headers": {},
+					"headers": {
+						"x-planet9-to-planet9": "X"
+					},
 					"body": ""
 				},
 				"testName": "Returns data",
@@ -63,7 +65,7 @@
 	},
 	"name": "TransferTableData",
 	"description": "A collection of sample artifacts in Planet 9",
-	"ver": "21.11.18.1739",
+	"ver": "21.11.18.2013",
 	"enableCICD": true,
 	"apps": [
 		{
@@ -78,7 +80,7 @@
 		{
 			"id": "9C8592FF-AF09-EC11-949F-7085C23EF572",
 			"name": "GetTableMetadata",
-			"ver": "21.11.18.1727",
+			"ver": "21.11.18.2044",
 			"description": "Transfers table data from one planet 9 system to another",
 			"apiGroup": "8A7D53F5-AF09-EC11-949F-7085C23EF572"
 		},
@@ -130,13 +132,13 @@
 	"reports": [],
 	"api_authentication": [
 		{
-			"id": "BB0B00AD-B909-EC11-949F-7085C23EF572",
-			"name": "SourceSystemAuth",
+			"id": "7B0E6CAD-A448-EC11-94AE-7085C23EF572",
+			"name": "p9-8081",
 			"description": null
 		},
 		{
-			"id": "EB9AFD6C-4D0A-EC11-949F-7085C23EF572",
-			"name": "TargetSystemAuth",
+			"id": "EF6B92D2-A748-EC11-94AE-7085C23EF572",
+			"name": "p9-8083",
 			"description": null
 		}
 	],

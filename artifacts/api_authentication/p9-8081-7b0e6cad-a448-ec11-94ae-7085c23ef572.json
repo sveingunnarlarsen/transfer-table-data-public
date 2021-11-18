@@ -1,0 +1,29 @@
+{
+	"id": "7b0e6cad-a448-ec11-94ae-7085c23ef572",
+	"createdAt": "2021-11-18T19:21:07.306Z",
+	"createdBy": "svein.gunnar.larsen@neptune-software.com",
+	"headers": [
+		{
+			"id": "28a260ca-81cb-4ce2-8842-150f19ded9ee",
+			"name": "Authorization",
+			"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjAxMjZBOUQwLUJENjQtNDIyOS1COEEwLUMzMjgzOTIwNDFCNSIsInV1aWQiOiIzYzZhYjc5Yy01MGI4LTRiMmItOWMzZS1hYjNjNjM2ZGM2NDciLCJpYXQiOjE2MzcyNjMyODIsImV4cCI6MTcyMzY2MzI4Mn0.2PWJ_JHYuw-rjnh0XQWzS7rKMdIzq6-0KkYLsfXlh74"
+		}
+	],
+	"details": {
+		"subject": {},
+		"headers": []
+	},
+	"azureRelayDetails": {
+		"ns": "",
+		"path": "",
+		"keyRule": "",
+		"key": ""
+	},
+	"name": "p9-8081",
+	"description": null,
+	"type": null,
+	"useCloudConnector": false,
+	"cloudConnectorType": null,
+	"ver": "21.11.18.2043",
+	"package": "55256b21-ae09-ec11-949f-7085c23ef572"
+}
