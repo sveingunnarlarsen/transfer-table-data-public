@@ -7,8 +7,8 @@ const servers = (process.env.CDCI_STAGING_URL && process.env.CDCI_STAGING_TOKEN)
     ? [{url: process.env.CDCI_STAGING_URL, token: process.env.CDCI_STAGING_TOKEN}]
     : JSON.parse(`[]`);
 
-console.log(process.env.P9_SERVER_URL);
-console.log(process.env.P9_SERVER_TOKEN);
+console.log('Url: ', process.env.CDCI_STAGING_URL);
+console.log('Token: ', process.env.CDCI_STAGING_TOKEN);
 
 const agent = new https.Agent({
     rejectUnauthorized: false
