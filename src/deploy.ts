@@ -3,8 +3,8 @@ import * as https from 'https';
 import * as path from 'path';
 import * as fs from "fs";
 
-const servers = (process.env.P9_SERVER_URL && process.env.P9_SERVER_TOKEN)
-    ? [{url: process.env.P9_SERVER_URL, token: process.env.P9_SERVER_TOKEN}]
+const servers = (process.env.CDCI_STAGING_URL && process.env.CDCI_STAGING_TOKEN)
+    ? [{url: process.env.CDCI_STAGING_URL, token: process.env.CDCI_STAGING_TOKEN}]
     : JSON.parse(`[]`);
 
 console.log(process.env.P9_SERVER_URL);
