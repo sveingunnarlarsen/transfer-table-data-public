@@ -36,7 +36,7 @@ function findValue(response: AxiosResponse, path) {
 
 const servers = (process.env.P9_SERVER_URL && process.env.P9_SERVER_TOKEN)
     ? [{url: process.env.P9_SERVER_URL, token: process.env.P9_SERVER_TOKEN}]
-    : JSON.parse(`[{"url":"https://planet9dev.neptune-software.com:8081","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImZjY2E3YTlmLTUyNDAtNDVlYi1hM2Q1LWMzZjFjM2M5NThkOCIsInV1aWQiOiI0NzdjOTcxZi01ZGVhLTQ2ZjAtOTNmMS05N2ZjZGEyY2MwMGEiLCJpYXQiOjE2MzA0MDg4MDMsImV4cCI6MTcxNjgwODgwM30.piMmlq_AFsvz1QJO45nzA4Au9wY7VvDrNBwkGxMyT8k"}]`);
+    : JSON.parse(`[{"url":"https://p9:8083","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IkYyNDVFQzY3LUY4NjgtRUExMS05NDJGLTcwODVDMjNFRjU3MiIsInV1aWQiOiJmZjVlOWUwNC05NTBhLTQxZjYtYjczMi0wY2Q3MDIyYjlmZmUiLCJpYXQiOjE2MDYyMTk5NTEsImV4cCI6MTY5MjYxOTk1MX0.M6rR_uH65fSd_NP0rUOkxG3X8Gk1FJEcObCrp64GIO8"}]`);
 
 const apiOperationsToTest: ApiTestOperation[] = JSON.parse('[{"apiId":"9c8592ff-af09-ec11-949f-7085c23ef572","name":"ReturnsData","endpoint":"https://planet9dev.neptune-software.com:8081/api/functions","method":"POST","path":"/Dictionary/List","type":"","data":"","headers":{},"parameters":{},"statusCode":"","jestMaxRuntime":2000,"jestMatchName":"req.data","jestMatchOperation":"toBeTruthy","jestMatchValue":""}]');
 

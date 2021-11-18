@@ -8,8 +8,8 @@
 		"remote": "https://github.com/sveingunnarlarsen/transfer-table-data-public.git",
 		"testServers": [
 			{
-				"url": "https://planet9dev.neptune-software.com:8081",
-				"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImZjY2E3YTlmLTUyNDAtNDVlYi1hM2Q1LWMzZjFjM2M5NThkOCIsInV1aWQiOiI0NzdjOTcxZi01ZGVhLTQ2ZjAtOTNmMS05N2ZjZGEyY2MwMGEiLCJpYXQiOjE2MzA0MDg4MDMsImV4cCI6MTcxNjgwODgwM30.piMmlq_AFsvz1QJO45nzA4Au9wY7VvDrNBwkGxMyT8k"
+				"url": "https://p9:8083",
+				"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IkYyNDVFQzY3LUY4NjgtRUExMS05NDJGLTcwODVDMjNFRjU3MiIsInV1aWQiOiJmZjVlOWUwNC05NTBhLTQxZjYtYjczMi0wY2Q3MDIyYjlmZmUiLCJpYXQiOjE2MDYyMTk5NTEsImV4cCI6MTY5MjYxOTk1MX0.M6rR_uH65fSd_NP0rUOkxG3X8Gk1FJEcObCrp64GIO8"
 			}
 		],
 		"readme": "Package for transfering table data between two systems.",
@@ -63,7 +63,7 @@
 	},
 	"name": "TransferTableData",
 	"description": "A collection of sample artifacts in Planet 9",
-	"ver": "21.11.18.1542",
+	"ver": "21.11.18.164",
 	"enableCICD": true,
 	"apps": [
 		{
