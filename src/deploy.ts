@@ -7,9 +7,6 @@ const servers = (process.env.P9_SERVER_URL && process.env.P9_SERVER_TOKEN)
     ? [{url: process.env.P9_SERVER_URL, token: process.env.P9_SERVER_TOKEN}]
     : JSON.parse(`[]`);
 
-console.log('Url: ', process.env.P9_SERVER_URL);
-console.log('Token: ', process.env.P9_SERVER_TOKEN);
-
 const agent = new https.Agent({
     rejectUnauthorized: false
 });
@@ -105,9 +102,7 @@ async function deployPackageFile(devPackage, url, token) {
                 devPackage[artifactType.name][y] = JSON.parse(await readFile(path.join(artifactTypePath, filename) + '.json', 'utf-8') as string);
             }
         }
-        console.log(servers);
         for (let i = 0; i < servers.length; i++) {
-            console.log(devPackage);
             await deployPackageFile(devPackage, servers[i].url, servers[i].token);
         }
         console.log('Package has been deployed');
