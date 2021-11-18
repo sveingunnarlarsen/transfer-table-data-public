@@ -38,7 +38,7 @@ const servers = (process.env.P9_SERVER_URL && process.env.P9_SERVER_TOKEN)
     ? [{url: process.env.P9_SERVER_URL, token: process.env.P9_SERVER_TOKEN}]
     : JSON.parse(`[{"url":"https://p9:8083","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IkYyNDVFQzY3LUY4NjgtRUExMS05NDJGLTcwODVDMjNFRjU3MiIsInV1aWQiOiJmZjVlOWUwNC05NTBhLTQxZjYtYjczMi0wY2Q3MDIyYjlmZmUiLCJpYXQiOjE2MDYyMTk5NTEsImV4cCI6MTY5MjYxOTk1MX0.M6rR_uH65fSd_NP0rUOkxG3X8Gk1FJEcObCrp64GIO8"}]`);
 
-const apiOperationsToTest: ApiTestOperation[] = JSON.parse('[{"apiId":"9c8592ff-af09-ec11-949f-7085c23ef572","name":"ReturnsData","endpoint":"https://planet9dev.neptune-software.com:8081/api/functions","method":"POST","path":"/Dictionary/List","type":"","data":"","headers":{},"parameters":{},"statusCode":"","jestMaxRuntime":2000,"jestMatchName":"req.data","jestMatchOperation":"toBeTruthy","jestMatchValue":""}]');
+const apiOperationsToTest: ApiTestOperation[] = JSON.parse('[{"apiId":"9C8592FF-AF09-EC11-949F-7085C23EF572","name":"Returns data","endpoint":"https://p9:8083/api/functions","method":"POST","path":"/Dictionary/List","type":"","data":"","headers":{},"parameters":{},"statusCode":"","jestMaxRuntime":2000,"jestMatchName":"req.data","jestMatchOperation":"toBeTruthy","jestMatchValue":""}]');
 
 for (let server of servers) {
     for (let operationToTest of apiOperationsToTest) {

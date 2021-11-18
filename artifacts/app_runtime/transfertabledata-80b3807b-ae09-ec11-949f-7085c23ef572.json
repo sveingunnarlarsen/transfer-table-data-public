@@ -1,7 +1,7 @@
 {
 	"id": "80b3807b-ae09-ec11-949f-7085c23ef572",
 	"createdAt": "2021-08-30T16:26:06.566Z",
-	"updatedAt": "2021-11-15T16:23:28.390Z",
+	"updatedAt": "2021-11-18T16:37:51.220Z",
 	"createdBy": "svein.gunnar.larsen@neptune-software.com",
 	"changedBy": "svein.gunnar.larsen@neptune-software.com",
 	"objects": [
@@ -191,6 +191,19 @@
 			"fieldNo": 99999,
 			"data": [
 				{
+					"fieldNo": "c7228a61-27f6-480e-dfcb-daafaa28f968",
+					"fieldName": "GetTableList",
+					"fieldParent": 99999,
+					"fieldType": "neptune.restapi",
+					"script": "",
+					"restSource": "9C8592FF-AF09-EC11-949F-7085C23EF572",
+					"restOperation": "4DF6503B-78BA-4B15-F02B-395F4480FDD8",
+					"request": [],
+					"response": [],
+					"attributes": [],
+					"data": []
+				},
+				{
 					"fieldNo": "91ea5357-0782-4068-d214-143a5b5d5607",
 					"fieldName": "TransferData",
 					"fieldParent": 99999,
@@ -204,43 +217,21 @@
 					"data": []
 				},
 				{
-					"fieldNo": "2a333d3e-6e40-48d0-8161-0c5e2faa5c09",
-					"fieldName": "GetTableList",
-					"fieldParent": 99999,
-					"fieldType": "neptune.restapi",
-					"script": "",
-					"restSource": "9C8592FF-AF09-EC11-949F-7085C23EF572",
-					"restOperation": "B99591E5-B704-431D-B51F-191C1EB72027",
-					"request": [],
-					"response": [],
-					"attributes": [],
-					"data": []
-				},
-				{
 					"fieldNo": "2835e56e-ff15-445d-9632-196018e354e3",
 					"fieldName": "script",
 					"fieldParent": 99999,
 					"fieldType": "neptune.Typescript",
 					"script": [
 						"==OBJECT STRING==",
-						"declare function apiGetTableList();\r",
-						"declare function apiTransferData({data: {name}});\r",
-						"declare const modelAppData: any;\r",
-						"declare const oSelect: any;\r",
 						"\r",
 						"(async function () {\r",
-						"    const tableList = await apiGetTableList();\r",
+						"    const tableList = await apiGetTableList(null, null);\r",
 						"    modelAppData.setData({tables: tableList.dictionary, selectedTable: \"\"});     \r",
 						"})();\r",
 						"\r",
 						"async function transferTableData() {\r",
-						"    const result = await apiTransferData({data: {name: modelAppData.oData.selectedTable}});\r",
-						"}\r",
-						"\r",
-						"console.log(\"test\");\r",
-						"console.log(\"test2\");\r",
-						"\r",
-						"window['appData'] = modelAppData;"
+						"    const result = await apiTransferData({data: {name: modelAppData.getData().selectedTable}}, null);\r",
+						"}"
 					],
 					"request": [],
 					"response": [],
@@ -294,7 +285,7 @@
 			"data": []
 		}
 	],
-	"ver": "21.9.21.1414",
+	"ver": "21.11.18.1737",
 	"application": "transfertabledata",
 	"title": "",
 	"description": "Transfers table data from one planet 9 system to another",
@@ -330,9 +321,9 @@
 		{
 			"id": "9C8592FF-AF09-EC11-949F-7085C23EF572",
 			"name": "GetTableMetadata",
-			"ver": "21.11.15.1623",
-			"updatedAt": "2021-11-18T14:32:30.570Z",
-			"changedBy": "system"
+			"ver": "21.11.18.1727",
+			"updatedAt": "2021-11-18T16:27:55.743Z",
+			"changedBy": "svein.gunnar.larsen@neptune-software.com"
 		},
 		{
 			"id": "F20331D1-420A-EC11-949F-7085C23EF572",

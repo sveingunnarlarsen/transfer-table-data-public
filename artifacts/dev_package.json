@@ -16,16 +16,16 @@
 		"path": "",
 		"testAPI": [
 			{
-				"id": "1ca0ee3d-b03e-4924-f4fb-022c97228a51",
-				"apiid": "9c8592ff-af09-ec11-949f-7085c23ef572",
-				"operid": "b99591e5-b704-431d-b51f-191c1eb72027",
+				"id": "49e6b201-9e6e-474b-aa04-b9782b50bff7",
+				"apiid": "9C8592FF-AF09-EC11-949F-7085C23EF572",
+				"operid": "4DF6503B-78BA-4B15-F02B-395F4480FDD8",
 				"enabled": true,
 				"_data": {
 					"parameters": {},
 					"headers": {},
 					"body": ""
 				},
-				"testName": "ReturnsData",
+				"testName": "Returns data",
 				"statusCode": "",
 				"jestMaxRuntime": 2000,
 				"jestMatchName": "req.data",
@@ -63,12 +63,12 @@
 	},
 	"name": "TransferTableData",
 	"description": "A collection of sample artifacts in Planet 9",
-	"ver": "21.11.18.164",
+	"ver": "21.11.18.1739",
 	"enableCICD": true,
 	"apps": [
 		{
 			"id": "80B3807B-AE09-EC11-949F-7085C23EF572",
-			"ver": "21.9.21.1414",
+			"ver": "21.11.18.1737",
 			"application": "transfertabledata",
 			"title": "",
 			"description": "Transfers table data from one planet 9 system to another"
@@ -78,7 +78,7 @@
 		{
 			"id": "9C8592FF-AF09-EC11-949F-7085C23EF572",
 			"name": "GetTableMetadata",
-			"ver": "21.11.15.1623",
+			"ver": "21.11.18.1727",
 			"description": "Transfers table data from one planet 9 system to another",
 			"apiGroup": "8A7D53F5-AF09-EC11-949F-7085C23EF572"
 		},
