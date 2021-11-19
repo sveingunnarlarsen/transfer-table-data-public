@@ -70,7 +70,7 @@
 	"apps": [
 		{
 			"id": "80B3807B-AE09-EC11-949F-7085C23EF572",
-			"ver": "21.11.18.1737",
+			"ver": "21.11.19.1333",
 			"application": "transfertabledata",
 			"title": "",
 			"description": "Transfers table data from one planet 9 system to another"
