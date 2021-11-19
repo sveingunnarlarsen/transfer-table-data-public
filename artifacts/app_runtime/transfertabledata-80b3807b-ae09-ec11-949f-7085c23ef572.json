@@ -231,6 +231,10 @@
 						"    const result = await apiTransferData({data: {name: modelAppData.getData().selectedTable}}, null);\r",
 						"}\r",
 						"\r",
+						"async function foo(): Promise<string> {\r",
+						"    return '';\r",
+						"}\r",
+						"\r",
 						"console.log('TEST');"
 					],
 					"request": [],
@@ -285,7 +289,7 @@
 			"data": []
 		}
 	],
-	"ver": "21.11.19.1333",
+	"ver": "21.11.19.1413",
 	"application": "transfertabledata",
 	"title": "",
 	"description": "Transfers table data from one planet 9 system to another",
