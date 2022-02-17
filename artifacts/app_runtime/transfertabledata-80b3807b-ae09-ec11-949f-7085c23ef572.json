@@ -301,7 +301,7 @@
 	"disabled": false,
 	"loadLaunchpadCode": null,
 	"loadApplicationCode": null,
-	"appType": "",
+	"appType": "A",
 	"ui5_m": true,
 	"ui5_f": false,
 	"ui5_table": false,
