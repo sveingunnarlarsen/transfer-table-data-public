@@ -78,13 +78,6 @@
 	],
 	"api": [
 		{
-			"id": "9c8592ff-af09-ec11-949f-7085c23ef572",
-			"name": "GetTableMetadata",
-			"ver": "21.11.18.2044",
-			"description": "Transfers table data from one planet 9 system to another",
-			"apiGroup": "8a7d53f5-af09-ec11-949f-7085c23ef572"
-		},
-		{
 			"id": "f20331d1-420a-ec11-949f-7085c23ef572",
 			"name": "QueryTableDataAndPush",
 			"ver": "21.9.6.1118",
@@ -96,6 +89,13 @@
 			"name": "TransferData",
 			"ver": "21.9.6.1119",
 			"description": "Pushes table data from source system to target system",
+			"apiGroup": "8a7d53f5-af09-ec11-949f-7085c23ef572"
+		},
+		{
+			"id": "9c8592ff-af09-ec11-949f-7085c23ef572",
+			"name": "GetTableMetadata",
+			"ver": "21.11.18.2044",
+			"description": "Transfers table data from one planet 9 system to another",
 			"apiGroup": "8a7d53f5-af09-ec11-949f-7085c23ef572"
 		}
 	],
