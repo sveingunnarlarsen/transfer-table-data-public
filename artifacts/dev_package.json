@@ -1,5 +1,5 @@
 {
-	"id": "55256B21-AE09-EC11-949F-7085C23EF572",
+	"id": "55256b21-ae09-ec11-949f-7085c23ef572",
 	"createdAt": "2021-08-30T16:20:04.140Z",
 	"createdBy": "svein.gunnar.larsen@neptune-software.com",
 	"git": {
@@ -65,11 +65,11 @@
 	},
 	"name": "TransferTableData",
 	"description": "A collection of sample artifacts in Planet 9",
-	"ver": "21.11.18.2013",
+	"ver": "22.4.7.118",
 	"enableCICD": true,
 	"apps": [
 		{
-			"id": "80B3807B-AE09-EC11-949F-7085C23EF572",
+			"id": "80b3807b-ae09-ec11-949f-7085c23ef572",
 			"ver": "21.11.19.1413",
 			"application": "transfertabledata",
 			"title": "",
@@ -78,32 +78,32 @@
 	],
 	"api": [
 		{
-			"id": "9C8592FF-AF09-EC11-949F-7085C23EF572",
+			"id": "9c8592ff-af09-ec11-949f-7085c23ef572",
 			"name": "GetTableMetadata",
 			"ver": "21.11.18.2044",
 			"description": "Transfers table data from one planet 9 system to another",
-			"apiGroup": "8A7D53F5-AF09-EC11-949F-7085C23EF572"
+			"apiGroup": "8a7d53f5-af09-ec11-949f-7085c23ef572"
 		},
 		{
-			"id": "F20331D1-420A-EC11-949F-7085C23EF572",
+			"id": "f20331d1-420a-ec11-949f-7085c23ef572",
 			"name": "QueryTableDataAndPush",
 			"ver": "21.9.6.1118",
 			"description": null,
-			"apiGroup": "8A7D53F5-AF09-EC11-949F-7085C23EF572"
+			"apiGroup": "8a7d53f5-af09-ec11-949f-7085c23ef572"
 		},
 		{
-			"id": "6263976E-4A0A-EC11-949F-7085C23EF572",
+			"id": "6263976e-4a0a-ec11-949f-7085c23ef572",
 			"name": "TransferData",
 			"ver": "21.9.6.1119",
 			"description": "Pushes table data from source system to target system",
-			"apiGroup": "8A7D53F5-AF09-EC11-949F-7085C23EF572"
+			"apiGroup": "8a7d53f5-af09-ec11-949f-7085c23ef572"
 		}
 	],
 	"odataMock": [],
 	"odataSource": [],
 	"dictionary": [
 		{
-			"id": "2E29D86D-F219-EC11-94A5-7085C23EF572",
+			"id": "2e29d86d-f219-ec11-94a5-7085c23ef572",
 			"name": "transfertabledatatest",
 			"description": null,
 			"ver": "21.9.20.119"
@@ -111,16 +111,16 @@
 	],
 	"jsclass": [
 		{
-			"id": "807BFB58-B409-EC11-949F-7085C23EF572",
+			"id": "807bfb58-b409-ec11-949f-7085c23ef572",
 			"name": "queryAndPushData",
 			"ver": "21.9.20.959",
 			"description": null,
-			"jsscriptGroup": "21943541-B409-EC11-949F-7085C23EF572"
+			"jsscriptGroup": "21943541-b409-ec11-949f-7085c23ef572"
 		}
 	],
 	"jsscript_group": [
 		{
-			"id": "21943541-B409-EC11-949F-7085C23EF572",
+			"id": "21943541-b409-ec11-949f-7085c23ef572",
 			"name": "TransferTableData",
 			"description": "Transfers table data from one planet 9 system to another",
 			"ver": "21.8.30.193"
@@ -132,19 +132,19 @@
 	"reports": [],
 	"api_authentication": [
 		{
-			"id": "7B0E6CAD-A448-EC11-94AE-7085C23EF572",
+			"id": "7b0e6cad-a448-ec11-94ae-7085c23ef572",
 			"name": "p9-8081",
 			"description": null
 		},
 		{
-			"id": "EF6B92D2-A748-EC11-94AE-7085C23EF572",
+			"id": "ef6b92d2-a748-ec11-94ae-7085c23ef572",
 			"name": "p9-8083",
 			"description": null
 		}
 	],
 	"api_group": [
 		{
-			"id": "8A7D53F5-AF09-EC11-949F-7085C23EF572",
+			"id": "8a7d53f5-af09-ec11-949f-7085c23ef572",
 			"name": "TransferTableData",
 			"description": "Transfers table data from one Planet 9 system to another"
 		}
