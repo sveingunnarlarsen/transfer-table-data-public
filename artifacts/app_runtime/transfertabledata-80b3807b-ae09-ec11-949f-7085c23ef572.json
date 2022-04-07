@@ -9,6 +9,7 @@
 			"fieldParent": 0,
 			"fieldType": "nep.bootstrap.FlexBox",
 			"script": "",
+			"customComponent": false,
 			"request": [],
 			"response": [],
 			"attributes": [],
@@ -19,6 +20,7 @@
 					"fieldParent": "95027c7e-bfc4-40f5-a08f-dc0d21258f03",
 					"fieldType": "nep.bootstrap.FlexBoxItem",
 					"script": "",
+					"customComponent": false,
 					"request": [],
 					"response": [],
 					"attributes": [
@@ -44,6 +46,7 @@
 							"fieldParent": "4be4a8f7-3ccd-46c8-dde8-8a87e7ce6bae",
 							"fieldType": "nep.bootstrap.Container",
 							"script": "",
+							"customComponent": false,
 							"request": [],
 							"response": [],
 							"attributes": [],
@@ -54,6 +57,7 @@
 									"fieldParent": "de849887-5da4-45bc-8832-47659bfb19cd",
 									"fieldType": "sap.ui.layout.form.SimpleForm",
 									"script": "",
+									"customComponent": false,
 									"request": [],
 									"response": [],
 									"attributes": [
@@ -67,11 +71,32 @@
 									],
 									"data": [
 										{
+											"fieldNo": "5c4fdccf-348e-4a51-b5ab-6a54d9b009e5",
+											"fieldName": "oLabel2",
+											"fieldParent": "55a8aad0-a2c6-48a3-c612-76afe5d1f638",
+											"fieldType": "sap.m.Label",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "text",
+													"grouping": "Properties",
+													"value": "Select table to transfer data from 2",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": []
+										},
+										{
 											"fieldNo": "c63b6086-374e-42ab-c25e-d673ffdf9800",
 											"fieldName": "oLabel",
 											"fieldParent": "55a8aad0-a2c6-48a3-c612-76afe5d1f638",
 											"fieldType": "sap.m.Label",
 											"script": "",
+											"customComponent": false,
 											"request": [],
 											"response": [],
 											"attributes": [
@@ -91,6 +116,7 @@
 											"fieldParent": "55a8aad0-a2c6-48a3-c612-76afe5d1f638",
 											"fieldType": "sap.m.Select",
 											"script": "",
+											"customComponent": false,
 											"bindingType": "h",
 											"modelPath": "AppData>/tables",
 											"request": [],
@@ -111,6 +137,7 @@
 													"fieldParent": "4cde03dd-d377-4e6e-d41b-4b7866a8ade0",
 													"fieldType": "sap.ui.core.Item",
 													"script": "",
+													"customComponent": false,
 													"request": [],
 													"response": [],
 													"attributes": [
@@ -139,6 +166,7 @@
 											"fieldParent": "55a8aad0-a2c6-48a3-c612-76afe5d1f638",
 											"fieldType": "sap.m.Label",
 											"script": "",
+											"customComponent": false,
 											"request": [],
 											"response": [],
 											"attributes": [],
@@ -150,6 +178,7 @@
 											"fieldParent": "55a8aad0-a2c6-48a3-c612-76afe5d1f638",
 											"fieldType": "nep.bootstrap.Button",
 											"script": "",
+											"customComponent": false,
 											"request": [],
 											"response": [],
 											"attributes": [
@@ -194,6 +223,7 @@
 					"fieldParent": 99999,
 					"fieldType": "neptune.restapi",
 					"script": "",
+					"customComponent": false,
 					"restSource": "9c8592ff-af09-ec11-949f-7085c23ef572",
 					"restOperation": "4df6503b-78ba-4b15-f02b-395f4480fdd8",
 					"request": [],
@@ -207,6 +237,7 @@
 					"fieldParent": 99999,
 					"fieldType": "neptune.restapi",
 					"script": "",
+					"customComponent": false,
 					"restSource": "f20331d1-420a-ec11-949f-7085c23ef572",
 					"restOperation": "ad6dd1b2-20d1-40d5-9e3b-d2c4fd260979",
 					"request": [],
@@ -221,7 +252,12 @@
 					"fieldType": "neptune.Typescript",
 					"script": [
 						"==OBJECT STRING==",
+						"async function foo() {\r",
+						"    \r",
+						"}\r",
 						"\r",
+						"\r",
+						"/*\r",
 						"(async function () {\r",
 						"    const tableList = await apiGetTableList(null, null);\r",
 						"    modelAppData.setData({tables: tableList.dictionary, selectedTable: \"\"});     \r",
@@ -234,9 +270,9 @@
 						"async function foo(): Promise<string> {\r",
 						"    return '';\r",
 						"}\r",
-						"\r",
-						"console.log('TEST');"
+						"*/"
 					],
+					"customComponent": false,
 					"request": [],
 					"response": [],
 					"attributes": [],
@@ -248,6 +284,7 @@
 					"fieldParent": 99999,
 					"fieldType": "neptune.model",
 					"script": "",
+					"customComponent": false,
 					"bindingValue": "Generic Array",
 					"bindingType": "h",
 					"bindingSource": "P9",
@@ -289,7 +326,7 @@
 			"data": []
 		}
 	],
-	"ver": "21.11.19.1413",
+	"ver": "22.4.7.1151",
 	"application": "transfertabledata",
 	"title": "",
 	"description": "Transfers table data from one planet 9 system to another",
